@@ -16,7 +16,9 @@ gem 'bcrypt'
 
 gem 'rack-cors'
 
-gem 'jwt'
+gem 'devise'
+
+gem 'devise-jwt'
 
 gem 'jsonapi-resources'
 
