@@ -305,7 +305,7 @@ Devise.setup do |config|
 
   # ==> Configuration for :registerable
   config.jwt do |jwt|
-    jwt.secret = Rails.application.credentials.devise[:jwt_secret_key]
+    jwt.secret = ENV['DEVISE_SECRET']
     jwt.expiration_time = 1.week.to_i
   end
   # When set to false, does not sign a user in automatically after their password is
