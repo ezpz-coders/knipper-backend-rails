@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# before action for show page
 class MembersController < ApplicationController
   before_action :authenticate_user!
 
